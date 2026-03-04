@@ -56,3 +56,4 @@ Thumbs.db
 
 # Claude Code local config
 .claude/
+.vercel
