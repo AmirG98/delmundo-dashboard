@@ -1,0 +1,2 @@
+# Este archivo mantiene la carpeta data/ en Git
+# Los archivos JSON de métricas serán generados y actualizados por GitHub Actions

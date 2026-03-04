@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-03-04T17:41:43.679794",
+  "date_range": {
+    "since": "2025-12-04",
+    "until": "2026-03-04"
+  },
+  "aggregated": {
+    "impressions": 0,
+    "clicks": 0,
+    "spend": 0.0,
+    "cpc": 0.0,
+    "cpm": 0.0,
+    "ctr": 0.0,
+    "reach": 0,
+    "frequency": 0.0,
+    "conversions": 0,
+    "engagement": 0,
+    "cost_per_conversion": 0.0,
+    "conversion_rate": 0.0
+  },
+  "time_series": [],
+  "campaigns": [],
+  "demographics": {
+    "age_gender": [],
+    "countries": [],
+    "devices": []
+  }
+}

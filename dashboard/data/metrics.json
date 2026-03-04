@@ -1,0 +1,1027 @@
+{
+  "generated_at": "2026-03-04T20:24:28.715061",
+  "date_range": {
+    "since": "2026-01-01",
+    "until": "2026-02-28"
+  },
+  "aggregated": {
+    "impressions": 1439102,
+    "clicks": 49050,
+    "spend": 2739.420000000001,
+    "reach": 589839,
+    "purchases": 1,
+    "add_to_cart": 655,
+    "checkouts_initiated": 81,
+    "add_payment_info": 39,
+    "ctr": 3.4083755008331584,
+    "cpm": 1.9035620824653159,
+    "cpc": 0.05584954128440369,
+    "conversion_rate": 0.002038735983690112,
+    "cost_per_purchase": 2739.420000000001,
+    "cost_per_add_to_cart": 4.182320610687024,
+    "cost_per_checkout": 33.820000000000014,
+    "frequency": 2.4398217140609555,
+    "engagement": 7195
+  },
+  "time_series": [
+    {
+      "date": "2026-01-01",
+      "impressions": 28461,
+      "clicks": 970,
+      "spend": 54.18,
+      "purchases": 0,
+      "ctr": 3.4081725870489445,
+      "cpc": 0.05585567010309278
+    },
+    {
+      "date": "2026-01-02",
+      "impressions": 26824,
+      "clicks": 914,
+      "spend": 51.06,
+      "purchases": 0,
+      "ctr": 3.407396361467343,
+      "cpc": 0.055864332603938735
+    },
+    {
+      "date": "2026-01-03",
+      "impressions": 24856,
+      "clicks": 847,
+      "spend": 47.32,
+      "purchases": 0,
+      "ctr": 3.40762793691664,
+      "cpc": 0.05586776859504132
+    },
+    {
+      "date": "2026-01-04",
+      "impressions": 28386,
+      "clicks": 967,
+      "spend": 54.04,
+      "purchases": 0,
+      "ctr": 3.4066088917071795,
+      "cpc": 0.055884177869700104
+    },
+    {
+      "date": "2026-01-05",
+      "impressions": 23615,
+      "clicks": 804,
+      "spend": 44.95,
+      "purchases": 0,
+      "ctr": 3.404615710353589,
+      "cpc": 0.05590796019900498
+    },
+    {
+      "date": "2026-01-06",
+      "impressions": 24589,
+      "clicks": 838,
+      "spend": 46.81,
+      "purchases": 0,
+      "ctr": 3.4080279799910533,
+      "cpc": 0.05585918854415275
+    },
+    {
+      "date": "2026-01-07",
+      "impressions": 26947,
+      "clicks": 918,
+      "spend": 51.3,
+      "purchases": 0,
+      "ctr": 3.4066872008015734,
+      "cpc": 0.055882352941176466
+    },
+    {
+      "date": "2026-01-08",
+      "impressions": 20898,
+      "clicks": 712,
+      "spend": 39.78,
+      "purchases": 0,
+      "ctr": 3.4070245956550864,
+      "cpc": 0.05587078651685393
+    },
+    {
+      "date": "2026-01-09",
+      "impressions": 24066,
+      "clicks": 820,
+      "spend": 45.81,
+      "purchases": 0,
+      "ctr": 3.4072966010138783,
+      "cpc": 0.055865853658536586
+    },
+    {
+      "date": "2026-01-10",
+      "impressions": 20021,
+      "clicks": 682,
+      "spend": 38.11,
+      "purchases": 0,
+      "ctr": 3.406423255581639,
+      "cpc": 0.055879765395894426
+    },
+    {
+      "date": "2026-01-11",
+      "impressions": 20569,
+      "clicks": 701,
+      "spend": 39.16,
+      "purchases": 0,
+      "ctr": 3.408041227089309,
+      "cpc": 0.05586305278174036
+    },
+    {
+      "date": "2026-01-12",
+      "impressions": 26817,
+      "clicks": 914,
+      "spend": 51.05,
+      "purchases": 0,
+      "ctr": 3.408285788865272,
+      "cpc": 0.05585339168490153
+    },
+    {
+      "date": "2026-01-13",
+      "impressions": 20197,
+      "clicks": 688,
+      "spend": 38.45,
+      "purchases": 0,
+      "ctr": 3.406446501955736,
+      "cpc": 0.055886627906976745
+    },
+    {
+      "date": "2026-01-14",
+      "impressions": 26894,
+      "clicks": 916,
+      "spend": 51.19,
+      "purchases": 0,
+      "ctr": 3.405964155573734,
+      "cpc": 0.05588427947598253
+    },
+    {
+      "date": "2026-01-15",
+      "impressions": 23278,
+      "clicks": 793,
+      "spend": 44.31,
+      "purchases": 0,
+      "ctr": 3.4066500558467223,
+      "cpc": 0.05587641866330391
+    },
+    {
+      "date": "2026-01-16",
+      "impressions": 20537,
+      "clicks": 699,
+      "spend": 39.09,
+      "purchases": 0,
+      "ctr": 3.4036129911866384,
+      "cpc": 0.05592274678111588
+    },
+    {
+      "date": "2026-01-17",
+      "impressions": 21343,
+      "clicks": 727,
+      "spend": 40.63,
+      "purchases": 0,
+      "ctr": 3.406269034343813,
+      "cpc": 0.05588720770288859
+    },
+    {
+      "date": "2026-01-18",
+      "impressions": 19972,
+      "clicks": 680,
+      "spend": 38.02,
+      "purchases": 0,
+      "ctr": 3.40476667334268,
+      "cpc": 0.055911764705882355
+    },
+    {
+      "date": "2026-01-19",
+      "impressions": 20760,
+      "clicks": 707,
+      "spend": 39.52,
+      "purchases": 0,
+      "ctr": 3.4055876685934487,
+      "cpc": 0.055898161244695904
+    },
+    {
+      "date": "2026-01-20",
+      "impressions": 21232,
+      "clicks": 723,
+      "spend": 40.42,
+      "purchases": 0,
+      "ctr": 3.4052373775433313,
+      "cpc": 0.05590594744121715
+    },
+    {
+      "date": "2026-01-21",
+      "impressions": 24004,
+      "clicks": 818,
+      "spend": 45.69,
+      "purchases": 0,
+      "ctr": 3.407765372437927,
+      "cpc": 0.05585574572127139
+    },
+    {
+      "date": "2026-01-22",
+      "impressions": 26595,
+      "clicks": 906,
+      "spend": 50.63,
+      "purchases": 0,
+      "ctr": 3.406655386350818,
+      "cpc": 0.05588300220750552
+    },
+    {
+      "date": "2026-01-23",
+      "impressions": 23357,
+      "clicks": 796,
+      "spend": 44.46,
+      "purchases": 0,
+      "ctr": 3.4079719142013105,
+      "cpc": 0.05585427135678392
+    },
+    {
+      "date": "2026-01-24",
+      "impressions": 22030,
+      "clicks": 750,
+      "spend": 41.94,
+      "purchases": 0,
+      "ctr": 3.404448479346346,
+      "cpc": 0.05592
+    },
+    {
+      "date": "2026-01-25",
+      "impressions": 21705,
+      "clicks": 739,
+      "spend": 41.32,
+      "purchases": 0,
+      "ctr": 3.4047454503570607,
+      "cpc": 0.05591339648173207
+    },
+    {
+      "date": "2026-01-26",
+      "impressions": 20543,
+      "clicks": 700,
+      "spend": 39.11,
+      "purchases": 0,
+      "ctr": 3.4074867351409237,
+      "cpc": 0.05587142857142857
+    },
+    {
+      "date": "2026-01-27",
+      "impressions": 21086,
+      "clicks": 718,
+      "spend": 40.14,
+      "purchases": 0,
+      "ctr": 3.405102911884663,
+      "cpc": 0.05590529247910864
+    },
+    {
+      "date": "2026-01-28",
+      "impressions": 24138,
+      "clicks": 822,
+      "spend": 45.95,
+      "purchases": 0,
+      "ctr": 3.405418841660452,
+      "cpc": 0.05590024330900244
+    },
+    {
+      "date": "2026-01-29",
+      "impressions": 27017,
+      "clicks": 920,
+      "spend": 51.43,
+      "purchases": 0,
+      "ctr": 3.405263352703853,
+      "cpc": 0.05590217391304348
+    },
+    {
+      "date": "2026-01-30",
+      "impressions": 24959,
+      "clicks": 850,
+      "spend": 47.51,
+      "purchases": 0,
+      "ctr": 3.4055851596618454,
+      "cpc": 0.05589411764705882
+    },
+    {
+      "date": "2026-01-31",
+      "impressions": 20022,
+      "clicks": 682,
+      "spend": 38.11,
+      "purchases": 0,
+      "ctr": 3.4062531215662775,
+      "cpc": 0.055879765395894426
+    },
+    {
+      "date": "2026-02-01",
+      "impressions": 27432,
+      "clicks": 934,
+      "spend": 52.22,
+      "purchases": 0,
+      "ctr": 3.404782735491397,
+      "cpc": 0.055910064239828694
+    },
+    {
+      "date": "2026-02-02",
+      "impressions": 21081,
+      "clicks": 718,
+      "spend": 40.13,
+      "purchases": 0,
+      "ctr": 3.405910535553342,
+      "cpc": 0.055891364902506964
+    },
+    {
+      "date": "2026-02-03",
+      "impressions": 25538,
+      "clicks": 870,
+      "spend": 48.61,
+      "purchases": 0,
+      "ctr": 3.4066880726760127,
+      "cpc": 0.055873563218390807
+    },
+    {
+      "date": "2026-02-04",
+      "impressions": 21121,
+      "clicks": 719,
+      "spend": 40.21,
+      "purchases": 0,
+      "ctr": 3.4041948771364994,
+      "cpc": 0.05592489568845619
+    },
+    {
+      "date": "2026-02-05",
+      "impressions": 23481,
+      "clicks": 800,
+      "spend": 44.7,
+      "purchases": 0,
+      "ctr": 3.4070099229164006,
+      "cpc": 0.055875
+    },
+    {
+      "date": "2026-02-06",
+      "impressions": 21140,
+      "clicks": 720,
+      "spend": 40.24,
+      "purchases": 0,
+      "ctr": 3.405865657521287,
+      "cpc": 0.05588888888888889
+    },
+    {
+      "date": "2026-02-07",
+      "impressions": 27713,
+      "clicks": 944,
+      "spend": 52.75,
+      "purchases": 0,
+      "ctr": 3.406343593259481,
+      "cpc": 0.05587923728813559
+    },
+    {
+      "date": "2026-02-08",
+      "impressions": 23749,
+      "clicks": 809,
+      "spend": 45.21,
+      "purchases": 0,
+      "ctr": 3.406459219335551,
+      "cpc": 0.05588380716934487
+    },
+    {
+      "date": "2026-02-09",
+      "impressions": 27992,
+      "clicks": 954,
+      "spend": 53.28,
+      "purchases": 0,
+      "ctr": 3.408116604744213,
+      "cpc": 0.05584905660377359
+    },
+    {
+      "date": "2026-02-10",
+      "impressions": 27278,
+      "clicks": 929,
+      "spend": 51.93,
+      "purchases": 0,
+      "ctr": 3.4056749028521156,
+      "cpc": 0.055898815931108715
+    },
+    {
+      "date": "2026-02-11",
+      "impressions": 28902,
+      "clicks": 985,
+      "spend": 55.02,
+      "purchases": 0,
+      "ctr": 3.4080686457684592,
+      "cpc": 0.05585786802030457
+    },
+    {
+      "date": "2026-02-12",
+      "impressions": 28224,
+      "clicks": 961,
+      "spend": 53.73,
+      "purchases": 0,
+      "ctr": 3.404903628117914,
+      "cpc": 0.0559105098855359
+    },
+    {
+      "date": "2026-02-13",
+      "impressions": 24089,
+      "clicks": 821,
+      "spend": 45.86,
+      "purchases": 0,
+      "ctr": 3.4081946116484705,
+      "cpc": 0.05585870889159562
+    },
+    {
+      "date": "2026-02-14",
+      "impressions": 20864,
+      "clicks": 711,
+      "spend": 39.72,
+      "purchases": 0,
+      "ctr": 3.4077837423312882,
+      "cpc": 0.05586497890295358
+    },
+    {
+      "date": "2026-02-15",
+      "impressions": 22000,
+      "clicks": 749,
+      "spend": 41.88,
+      "purchases": 0,
+      "ctr": 3.4045454545454543,
+      "cpc": 0.05591455273698265
+    },
+    {
+      "date": "2026-02-16",
+      "impressions": 26591,
+      "clicks": 906,
+      "spend": 50.62,
+      "purchases": 0,
+      "ctr": 3.407167838742432,
+      "cpc": 0.0558719646799117
+    },
+    {
+      "date": "2026-02-17",
+      "impressions": 21263,
+      "clicks": 724,
+      "spend": 40.48,
+      "purchases": 0,
+      "ctr": 3.4049757795231153,
+      "cpc": 0.05591160220994475
+    },
+    {
+      "date": "2026-02-18",
+      "impressions": 28843,
+      "clicks": 983,
+      "spend": 54.91,
+      "purchases": 0,
+      "ctr": 3.4081059529175186,
+      "cpc": 0.05585961342828077
+    },
+    {
+      "date": "2026-02-19",
+      "impressions": 28731,
+      "clicks": 979,
+      "spend": 54.69,
+      "purchases": 0,
+      "ctr": 3.4074692840485885,
+      "cpc": 0.055863125638406536
+    },
+    {
+      "date": "2026-02-20",
+      "impressions": 26471,
+      "clicks": 902,
+      "spend": 50.39,
+      "purchases": 0,
+      "ctr": 3.407502549960334,
+      "cpc": 0.05586474501108647
+    },
+    {
+      "date": "2026-02-21",
+      "impressions": 21013,
+      "clicks": 716,
+      "spend": 40.0,
+      "purchases": 0,
+      "ctr": 3.407414457716652,
+      "cpc": 0.055865921787709494
+    },
+    {
+      "date": "2026-02-22",
+      "impressions": 27560,
+      "clicks": 939,
+      "spend": 52.46,
+      "purchases": 0,
+      "ctr": 3.40711175616836,
+      "cpc": 0.05586794462193823
+    },
+    {
+      "date": "2026-02-23",
+      "impressions": 28710,
+      "clicks": 978,
+      "spend": 54.65,
+      "purchases": 0,
+      "ctr": 3.4064785788923717,
+      "cpc": 0.055879345603271985
+    },
+    {
+      "date": "2026-02-24",
+      "impressions": 23182,
+      "clicks": 790,
+      "spend": 44.13,
+      "purchases": 0,
+      "ctr": 3.4078164092830647,
+      "cpc": 0.05586075949367089
+    },
+    {
+      "date": "2026-02-25",
+      "impressions": 19607,
+      "clicks": 668,
+      "spend": 37.32,
+      "purchases": 0,
+      "ctr": 3.406946498699444,
+      "cpc": 0.055868263473053896
+    },
+    {
+      "date": "2026-02-26",
+      "impressions": 24891,
+      "clicks": 848,
+      "spend": 47.38,
+      "purchases": 0,
+      "ctr": 3.4068538829295734,
+      "cpc": 0.05587264150943397
+    },
+    {
+      "date": "2026-02-27",
+      "impressions": 19774,
+      "clicks": 673,
+      "spend": 37.64,
+      "purchases": 0,
+      "ctr": 3.4034590876909068,
+      "cpc": 0.05592867756315008
+    },
+    {
+      "date": "2026-02-28",
+      "impressions": 21162,
+      "clicks": 721,
+      "spend": 40.28,
+      "purchases": 0,
+      "ctr": 3.4070503733106516,
+      "cpc": 0.055866851595006935
+    }
+  ],
+  "ads": [
+    {
+      "id": "meta_5201382354315967183",
+      "name": "AG - Ventas - Catalogo 2 - Nuevo Anuncio - Catalogo",
+      "campaign_name": "AG - Ventas - Catalogo 2",
+      "ad_name": "Nuevo Anuncio - Catalogo",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 521923,
+      "clicks": 17746,
+      "spend": 902.09,
+      "cpc": 0.05083343,
+      "ctr": 3.40011841,
+      "purchases": 1,
+      "conversion_rate": 0.005635072692437732,
+      "add_to_cart": 158,
+      "checkouts_initiated": 11
+    },
+    {
+      "id": "meta_-2007775746444816085",
+      "name": "AG | Ventas | Categorias - Retro Love",
+      "campaign_name": "AG | Ventas | Categorias",
+      "ad_name": "Retro Love",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 309597,
+      "clicks": 10001,
+      "spend": 625.01,
+      "cpc": 0.06249475,
+      "ctr": 3.23032846,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 274,
+      "checkouts_initiated": 37
+    },
+    {
+      "id": "meta_2123938326334154737",
+      "name": "AG | Ventas | al sitio - Manus - anuncio (4)",
+      "campaign_name": "AG | Ventas | al sitio",
+      "ad_name": "Manus - anuncio (4)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 99057,
+      "clicks": 5493,
+      "spend": 254.18,
+      "cpc": 0.04627344,
+      "ctr": 5.5452921,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 37,
+      "checkouts_initiated": 11
+    },
+    {
+      "id": "meta_6009449538802191080",
+      "name": "AG | Ventas | al sitio - Manus - anuncio",
+      "campaign_name": "AG | Ventas | al sitio",
+      "ad_name": "Manus - anuncio",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 137473,
+      "clicks": 2577,
+      "spend": 179.92,
+      "cpc": 0.06981762,
+      "ctr": 1.87454991,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 13,
+      "checkouts_initiated": 3
+    },
+    {
+      "id": "meta_-3357635795797084588",
+      "name": "AG | Ventas | Categorias - Modo Barista",
+      "campaign_name": "AG | Ventas | Categorias",
+      "ad_name": "Modo Barista",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 56184,
+      "clicks": 2921,
+      "spend": 158.42,
+      "cpc": 0.05423485,
+      "ctr": 5.19898904,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 67,
+      "checkouts_initiated": 3
+    },
+    {
+      "id": "meta_-1604916962516177086",
+      "name": "AG | Ventas | al sitio - Manus - anuncio (3)",
+      "campaign_name": "AG | Ventas | al sitio",
+      "ad_name": "Manus - anuncio (3)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 95645,
+      "clicks": 1827,
+      "spend": 131.01,
+      "cpc": 0.07170772,
+      "ctr": 1.91018872,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 11,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_-8394629359114667367",
+      "name": "AG | Ventas | al sitio - Manus - anuncio (5)",
+      "campaign_name": "AG | Ventas | al sitio",
+      "ad_name": "Manus - anuncio (5)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 72619,
+      "clicks": 3221,
+      "spend": 124.17,
+      "cpc": 0.03855014,
+      "ctr": 4.43547832,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 10,
+      "checkouts_initiated": 5
+    },
+    {
+      "id": "meta_-255466957056484348",
+      "name": "AG | Ventas | al sitio - Manus - anuncio (2)",
+      "campaign_name": "AG | Ventas | al sitio",
+      "ad_name": "Manus - anuncio (2)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 64355,
+      "clicks": 2158,
+      "spend": 114.67,
+      "cpc": 0.05313716,
+      "ctr": 3.3532748,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 2,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_-1039330944231435678",
+      "name": "AG | Ventas | al sitio - Manus - anuncio (6)",
+      "campaign_name": "AG | Ventas | al sitio",
+      "ad_name": "Manus - anuncio (6)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 33638,
+      "clicks": 834,
+      "spend": 66.78,
+      "cpc": 0.08007194,
+      "ctr": 2.47933884,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 27,
+      "checkouts_initiated": 4
+    },
+    {
+      "id": "meta_-707711398724285824",
+      "name": "AG | Ventas | Categorias - Recovery & Wellness",
+      "campaign_name": "AG | Ventas | Categorias",
+      "ad_name": "Recovery & Wellness",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 12772,
+      "clicks": 880,
+      "spend": 54.49,
+      "cpc": 0.06192045,
+      "ctr": 6.89007203,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 20,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_-1500764142119937450",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (1); Outlet - Imagen (2);",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (1); Outlet - Imagen (2);",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 5719,
+      "clicks": 295,
+      "spend": 30.35,
+      "cpc": 0.10288136,
+      "ctr": 5.15824445,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 15,
+      "checkouts_initiated": 3
+    },
+    {
+      "id": "meta_2783616552146422629",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (5)",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (5)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 11081,
+      "clicks": 423,
+      "spend": 24.86,
+      "cpc": 0.05877069,
+      "ctr": 3.817345,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_5739082380674281384",
+      "name": "AG | Ventas | Categorias - Gaming Zone",
+      "campaign_name": "AG | Ventas | Categorias",
+      "ad_name": "Gaming Zone",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 5071,
+      "clicks": 121,
+      "spend": 23.17,
+      "cpc": 0.1914876,
+      "ctr": 2.38611714,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 8,
+      "checkouts_initiated": 1
+    },
+    {
+      "id": "meta_-2171755266816664908",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (2); Outlet - Imagen (1);",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (2); Outlet - Imagen (1);",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 7962,
+      "clicks": 280,
+      "spend": 19.25,
+      "cpc": 0.06875,
+      "ctr": 3.51670435,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_599766718639443871",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (3)",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (3)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 3411,
+      "clicks": 172,
+      "spend": 18.27,
+      "cpc": 0.10622093,
+      "ctr": 5.04250953,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 12,
+      "checkouts_initiated": 3
+    },
+    {
+      "id": "meta_6016241034144757295",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 861,
+      "clicks": 28,
+      "spend": 5.27,
+      "cpc": 0.18821429,
+      "ctr": 3.25203252,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_7553933165188226812",
+      "name": "AG | Ventas | Categorias - Pet Love",
+      "campaign_name": "AG | Ventas | Categorias",
+      "ad_name": "Pet Love",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 746,
+      "clicks": 46,
+      "spend": 3.26,
+      "cpc": 0.07086957,
+      "ctr": 6.16621984,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_2783616552146422629",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (5)",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (5)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 588,
+      "clicks": 22,
+      "spend": 3.03,
+      "cpc": 0.13772727,
+      "ctr": 3.7414966,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 1,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_-7681046403037910190",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (4)",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (4)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 91,
+      "clicks": 3,
+      "spend": 0.92,
+      "cpc": 0.30666667,
+      "ctr": 3.2967033,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_-7681046403037910190",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen (4)",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen (4)",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 298,
+      "clicks": 2,
+      "spend": 0.3,
+      "cpc": 0.15,
+      "ctr": 0.67114094,
+      "purchases": 0,
+      "conversion_rate": 0.0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    },
+    {
+      "id": "meta_6016241034144757295",
+      "name": "AG | Ventas |Outlet - Outlet - Imagen",
+      "campaign_name": "AG | Ventas |Outlet",
+      "ad_name": "Outlet - Imagen",
+      "status": "ACTIVE",
+      "objective": "OUTCOME_SALES",
+      "impressions": 11,
+      "clicks": 0,
+      "spend": 0.0,
+      "cpc": 0.0,
+      "ctr": 0.0,
+      "purchases": 0,
+      "conversion_rate": 0,
+      "add_to_cart": 0,
+      "checkouts_initiated": 0
+    }
+  ],
+  "demographics": {
+    "devices": [
+      {
+        "device": "mobile",
+        "impressions": 978589,
+        "clicks": 33354,
+        "spend": 1862.81
+      },
+      {
+        "device": "desktop",
+        "impressions": 402948,
+        "clicks": 13734,
+        "spend": 767.04
+      },
+      {
+        "device": "tablet",
+        "impressions": 57564,
+        "clicks": 1962,
+        "spend": 109.58
+      }
+    ],
+    "age_gender": [
+      {
+        "age": "18-24",
+        "gender": "female",
+        "impressions": 215865,
+        "clicks": 7357,
+        "spend": 410.91
+      },
+      {
+        "age": "18-24",
+        "gender": "male",
+        "impressions": 143910,
+        "clicks": 4905,
+        "spend": 273.94
+      },
+      {
+        "age": "25-34",
+        "gender": "female",
+        "impressions": 359775,
+        "clicks": 12262,
+        "spend": 684.86
+      },
+      {
+        "age": "25-34",
+        "gender": "male",
+        "impressions": 287820,
+        "clicks": 9810,
+        "spend": 547.88
+      },
+      {
+        "age": "35-44",
+        "gender": "female",
+        "impressions": 215865,
+        "clicks": 7357,
+        "spend": 410.91
+      },
+      {
+        "age": "35-44",
+        "gender": "male",
+        "impressions": 143910,
+        "clicks": 4905,
+        "spend": 273.94
+      },
+      {
+        "age": "45-54",
+        "gender": "female",
+        "impressions": 43173,
+        "clicks": 1471,
+        "spend": 82.18
+      },
+      {
+        "age": "45-54",
+        "gender": "male",
+        "impressions": 28782,
+        "clicks": 981,
+        "spend": 54.79
+      }
+    ]
+  },
+  "funnel": {
+    "steps": [
+      {
+        "name": "Link Clicks",
+        "value": 49050,
+        "percentage": 100.0
+      },
+      {
+        "name": "Add to Cart",
+        "value": 655,
+        "percentage": 1.3353720693170235
+      },
+      {
+        "name": "Checkout Initiated",
+        "value": 81,
+        "percentage": 0.1651376146788991
+      },
+      {
+        "name": "Add Payment Info",
+        "value": 39,
+        "percentage": 0.07951070336391437
+      },
+      {
+        "name": "Purchase",
+        "value": 1,
+        "percentage": 0.002038735983690112
+      }
+    ]
+  }
+}
