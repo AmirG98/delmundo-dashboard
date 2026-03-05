@@ -89,7 +89,6 @@ function updateDashboard() {
     updateDateRange();
     updateMetrics();
     updateCharts();
-    updateTables();
     updateLastUpdated();
 }
 
