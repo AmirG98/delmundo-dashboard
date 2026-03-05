@@ -144,6 +144,7 @@
                         <div class="flex-1">
                             <p class="text-xs font-medium text-gray-600 uppercase tracking-wider">CTR</p>
                             <p id="metric-ctr" class="text-2xl font-bold mt-1">-</p>
+                            <p id="benchmark-ctr" class="text-xs text-gray-500 mt-1">-</p>
                         </div>
                         <div class="p-2 bg-purple-500/10 rounded">
                             <svg class="w-4 h-4 text-purple-500" fill="currentColor" viewBox="0 0 20 20">
@@ -179,11 +180,13 @@
                 <div class="card p-4 rounded">
                     <p class="text-xs uppercase tracking-widest text-gray-600 mb-1">CPC</p>
                     <p id="metric-cpc" class="text-xl font-bold tracking-tight">-</p>
+                    <p id="benchmark-cpc" class="text-xs text-gray-500 mt-1">-</p>
                 </div>
 
                 <div class="card p-4 rounded">
                     <p class="text-xs uppercase tracking-widest text-gray-600 mb-1">CPM</p>
                     <p id="metric-cpm" class="text-xl font-bold tracking-tight">-</p>
+                    <p id="benchmark-cpm" class="text-xs text-gray-500 mt-1">-</p>
                 </div>
 
                 <div class="card p-4 rounded">
@@ -194,37 +197,17 @@
                 <div class="card p-4 rounded">
                     <p class="text-xs uppercase tracking-widest text-gray-600 mb-1">CONV RATE</p>
                     <p id="metric-conversion-rate" class="text-xl font-bold tracking-tight">-</p>
+                    <p id="benchmark-conversion-rate" class="text-xs text-gray-500 mt-1">-</p>
                 </div>
             </div>
 
-            <!-- Charts Row -->
-            <div class="grid lg:grid-cols-3 gap-6">
-                <!-- Spend Over Time -->
-                <div class="card lg:col-span-2 p-6 rounded">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-3 h-3 bg-red-600"></div>
-                        <h3 class="font-bold uppercase tracking-wider text-sm">SPEND OVER TIME</h3>
-                    </div>
-                    <canvas id="spendChart" height="100"></canvas>
-                </div>
-
-                <!-- Device Distribution -->
-                <div class="card p-6 rounded">
-                    <div class="flex items-center gap-3 mb-6">
-                        <div class="w-3 h-3 bg-red-600"></div>
-                        <h3 class="font-bold uppercase tracking-wider text-sm">DEVICE DISTRIBUTION</h3>
-                    </div>
-                    <canvas id="deviceChart"></canvas>
-                </div>
-            </div>
-
-            <!-- Performance Metrics Chart -->
+            <!-- Spend Over Time Chart -->
             <div class="card p-6 rounded">
                 <div class="flex items-center gap-3 mb-6">
                     <div class="w-3 h-3 bg-red-600"></div>
-                    <h3 class="font-bold uppercase tracking-wider text-sm">PERFORMANCE METRICS</h3>
+                    <h3 class="font-bold uppercase tracking-wider text-sm">SPEND OVER TIME</h3>
                 </div>
-                <canvas id="performanceChart" height="80"></canvas>
+                <canvas id="spendChart" height="80"></canvas>
             </div>
 
             <!-- Conversion Funnel -->
@@ -233,34 +216,7 @@
                     <div class="w-3 h-3 bg-red-600"></div>
                     <h3 class="font-bold uppercase tracking-wider text-sm">CONVERSION FUNNEL</h3>
                 </div>
-                <canvas id="funnelChart" height="80"></canvas>
-            </div>
-
-            <!-- Ads Table -->
-            <div class="card p-6 rounded">
-                <div class="flex items-center gap-3 mb-6">
-                    <div class="w-3 h-3 bg-red-600"></div>
-                    <h3 class="font-bold uppercase tracking-wider text-sm">ADS PERFORMANCE</h3>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-sm">
-                        <thead>
-                            <tr class="border-b-2 border-gray-900">
-                                <th class="text-left py-3 font-bold uppercase tracking-wider text-xs">Ad Name</th>
-                                <th class="text-left py-3 font-bold uppercase tracking-wider text-xs">Campaign</th>
-                                <th class="text-right py-3 font-bold uppercase tracking-wider text-xs">Impressions</th>
-                                <th class="text-right py-3 font-bold uppercase tracking-wider text-xs">Clicks</th>
-                                <th class="text-right py-3 font-bold uppercase tracking-wider text-xs">Spend</th>
-                                <th class="text-right py-3 font-bold uppercase tracking-wider text-xs">CTR</th>
-                                <th class="text-right py-3 font-bold uppercase tracking-wider text-xs">Purchases</th>
-                                <th class="text-right py-3 font-bold uppercase tracking-wider text-xs">Conv Rate</th>
-                            </tr>
-                        </thead>
-                        <tbody id="adsTable">
-                            <tr><td colspan="8" class="text-center py-4 text-gray-500">Loading...</td></tr>
-                        </tbody>
-                    </table>
-                </div>
+                <div id="funnelVisualization"></div>
             </div>
 
             <!-- Footer -->
