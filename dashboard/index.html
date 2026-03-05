@@ -59,9 +59,79 @@
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
+
+        #loginOverlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+
+        #loginOverlay.hidden {
+            display: none;
+        }
+
+        #dashboard-content.hidden {
+            display: none;
+        }
+
+        .login-box {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .shake {
+            animation: shake 0.5s;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
     </style>
 </head>
 <body class="bg-gray-50">
+
+    <!-- Login Overlay -->
+    <div id="loginOverlay">
+        <div class="login-box">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="w-4 h-4 bg-red-600"></div>
+                <h2 class="text-2xl font-bold">Dashboard Access</h2>
+            </div>
+            <p class="text-gray-600 mb-6">Enter password to access the dashboard</p>
+            <form id="loginForm" class="space-y-4">
+                <input
+                    type="password"
+                    id="passwordInput"
+                    placeholder="Password"
+                    class="w-full px-4 py-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-600"
+                    autocomplete="off"
+                >
+                <button
+                    type="submit"
+                    class="w-full bg-red-600 text-white py-3 rounded font-semibold hover:bg-red-700 transition"
+                >
+                    Access Dashboard
+                </button>
+                <p id="loginError" class="text-red-600 text-sm hidden">Incorrect password. Please try again.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Dashboard Content -->
+    <div id="dashboard-content" class="hidden">
 
     <div class="min-h-screen p-4 md:p-8">
         <div class="max-w-7xl mx-auto space-y-8 animate-fade-in">
@@ -226,7 +296,48 @@
 
         </div>
     </div>
+    </div>
+    <!-- End Dashboard Content -->
 
+    <script>
+        // Password Protection
+        const CORRECT_PASSWORD = 'juanjodm';
+
+        function checkAuth() {
+            const isAuthenticated = sessionStorage.getItem('dashboardAuth') === 'true';
+            if (isAuthenticated) {
+                showDashboard();
+            }
+        }
+
+        function showDashboard() {
+            document.getElementById('loginOverlay').classList.add('hidden');
+            document.getElementById('dashboard-content').classList.remove('hidden');
+        }
+
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const password = document.getElementById('passwordInput').value;
+            const errorMsg = document.getElementById('loginError');
+            const loginBox = document.querySelector('.login-box');
+
+            if (password === CORRECT_PASSWORD) {
+                sessionStorage.setItem('dashboardAuth', 'true');
+                showDashboard();
+            } else {
+                errorMsg.classList.remove('hidden');
+                loginBox.classList.add('shake');
+                document.getElementById('passwordInput').value = '';
+
+                setTimeout(() => {
+                    loginBox.classList.remove('shake');
+                }, 500);
+            }
+        });
+
+        // Check auth on page load
+        checkAuth();
+    </script>
     <script src="app.js"></script>
 
 </body>
